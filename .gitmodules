@@ -1,0 +1,3 @@
+[submodule "Submodule/YACYAML"]
+	path = Submodule/YACYAML
+	url = https://github.com/th-in-gs/YACYAML.git

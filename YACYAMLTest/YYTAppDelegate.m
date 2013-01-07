@@ -8,11 +8,14 @@
 
 #import "YYTAppDelegate.h"
 
+#import <YACYAML/YACYAML.h>
+
 @implementation YYTAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSDictionary *dictionary = @{@"hello": @"world!"};
+    NSLog(@"%@", [dictionary YACYAMLEncodedString]);
 }
 
 @end
